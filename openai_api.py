@@ -2,8 +2,6 @@ import openai
 import os
 
 def initialize_api():
-    # uncomment this if you need to use the API in a restricted environment with special software
-    #os.environ["REQUESTS_CA_BUNDLE"] = ""
     openai.api_key = os.environ.get("OPENAI_API_KEY")
     if not openai.api_key:
         raise ValueError("Please set the OPENAI_API_KEY environment variable to use the OpenAI API.")
