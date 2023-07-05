@@ -22,8 +22,7 @@ To get an API key from OpenAI, you need to sign up for their API access. Please 
 
 1. Set up a Python virtual environment and install the `openai` package:
 
-<pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">
-python -m venv venv
+<pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">python -m venv venv
 source venv/bin/activate  # For Linux and macOS
 venv\Scripts\activate  # For Windows
 pip install openai
@@ -31,16 +30,14 @@ pip install openai
 
 2. Set your API key as an environment variable:
 
-<pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">
-export OPENAI_API_KEY="your_api_key_here"  # For Linux and macOS
+<pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">export OPENAI_API_KEY="your_api_key_here"  # For Linux and macOS
 set OPENAI_API_KEY="your_api_key_here"  # For Windows cmd
 $env:OPENAI_API_KEY="your_api_key_here"  # For Windows powershell
 </code></div></div></pre>
 
 3. Run the `main.py` script:
 
-<pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">
-python main.py
+<pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">python main.py
 </code></div></div></pre>
 
 This program will allow you to interact with the GPT model. Type your input and press enter to get a response from the model. Type 'quit' and press enter to exit the program.
